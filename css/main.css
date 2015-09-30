@@ -10,10 +10,50 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+	padding: 0em 0.65rem;
+	font: 100%/1.3 Rosario, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+
+body {
+	margin: 0em;
+}
+
+header{
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Alegreya', serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Alegreya', serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Alegreya', serif;
+	font-weight: normal;
+	text-align: center;
+	margin: 0em;
+}
+
+p {
+	margin: 0;
+	padding: 0rem 0.65rem;
+}
+
+.info {
+	margin-bottom: 1em;
+	width: 100%;
 }
 
 
