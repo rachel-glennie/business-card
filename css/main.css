@@ -22,10 +22,17 @@ html {
 
 body {
 	margin: 0em;
+	background-image: url("../images/test.png");
+	background-repeat: no-repeat;
 }
 
 header{
 	text-align: center;
+	margin: 20em 0em 0em 0em;
+}
+
+main {
+	margin-top: 4em;
 }
 
 h1 {
