@@ -22,8 +22,10 @@ html {
 
 body {
 	margin: 0em;
-	background-image: url("../images/test.png");
+	background-image: url("../images/billboard.jpg");
 	background-repeat: no-repeat;
+	background-size: 952px 465px;
+	background-position: 74% 0em;
 }
 
 header{
@@ -72,6 +74,11 @@ p {
 		padding: 0 1.4rem;
 	}
 
+	body {
+		background-size: 952px 465px;
+		background-position: 74% 0em;
+	}
+
 	.info {
 		width: 50%;
 		float: left;
@@ -88,6 +95,7 @@ p {
 	}
 
 }
+
 
 @media only screen and (min-width: 75em) {
 
