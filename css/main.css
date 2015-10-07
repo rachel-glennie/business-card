@@ -76,6 +76,7 @@ p {
 .portfolio {
 	text-align: center;
 	padding: 0rem 1.3rem;
+	max-width: 25rem;
 }
 
 .right-img {
@@ -94,6 +95,11 @@ p {
 	margin-bottom: 1em;
 }
 
+.portfolio {
+	margin: 0 auto;
+
+}
+
 .portfolio a {
 	text-decoration: none;
 	color: white;
@@ -102,11 +108,18 @@ p {
 	padding: 0.25em 0.5em;
 	margin: 0.5em 25%;
 	text-align: center;
-	clear: both;
+	display: inline-block;
 }
 
 .contact {
 	clear: both;
+	margin: 0 auto;
+	padding: 0rem 1.3rem;
+	text-align: center;
+}
+
+.contact a {
+	padding: 0.7em
 }
 
 
@@ -134,7 +147,7 @@ p {
 		padding: ;
 		margin: 0 auto;
 		margin-bottom: 1em;
-		padding: 0 1.4rem;
+		padding: 0rem 1.4rem;
 	}
 
 	.info-2 {
@@ -146,8 +159,25 @@ p {
 	.portfolio {
 		width: 50%;
 		float: left;
+		padding: 0rem 1.4rem;
 	}
 
+	.left-img {
+		padding-left: 0.35rem;
+	}
+
+	.right-img {
+		padding-right: 0.35rem;
+	}
+
+	.portfolio a {
+		margin: 0em auto;
+		display: inline-block;
+	}
+
+	.contact {
+		width: 50%;
+	}
 
 }
 
@@ -173,6 +203,8 @@ p {
 
 	.portfolio {
 		clear: both;
+		margin-left: 6rem;
+		margin-right: ;
 	}
 
 }
