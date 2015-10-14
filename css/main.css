@@ -39,6 +39,8 @@ header a {
 	background-color: #c1272d;
 	border-radius: 1em;
 	padding: 0.25em 0.5em;
+	text-decoration: none;
+	color: white;
 }
 
 main {
@@ -74,11 +76,6 @@ p {
 	padding: 0rem 1.3rem;
 }
 
-.portfolio {
-	text-align: center;
-	padding: 0rem 1.3rem;
-	max-width: 25rem;
-}
 
 .right-img {
 	float: left;
@@ -97,8 +94,11 @@ p {
 }
 
 .portfolio {
+	float: left;
+	clear: none;
+	text-align: center;
+	padding: 0rem 1.3rem;
 	margin: 0 auto;
-
 }
 
 .portfolio a {
@@ -113,12 +113,12 @@ p {
 }
 
 .contact {
-	clear: both;
+	display: inline-block;
 	margin: 0 auto;
 	padding: 0rem 1.3rem;
 	text-align: center;
-	margin-bottom: 4em;
 	background-color: #e2f4ae;
+	padding-bottom: 2em;
 }
 
 .contact a{
@@ -127,11 +127,16 @@ p {
 
 .contact img {
 	display: inline-block;
-	width: 33%;
+	width: 45%;
 	margin: 0 auto;
 	padding: 0.65em;
 }
 
+footer {
+	padding: 1rem 1.3rem;
+	font-size: 0.75rem;
+	background-color: #62729a;
+}
 
 @media only screen and (min-width: 37.5em) {
 
@@ -150,8 +155,12 @@ p {
 		padding-bottom: 0em;
 	}
 
+	.about-me {
+		margin-bottom: 2em
+	}
+
 	.info {
-		width: 50%;
+		width: 45%;
 		float: left;
 		vertical-align: top;
 		padding: ;
@@ -168,7 +177,7 @@ p {
 
 	.portfolio {
 		width: 50%;
-		float: left;
+		display: inline-block;
 		padding: 0rem 1.4rem;
 	}
 
@@ -186,7 +195,13 @@ p {
 	}
 
 	.contact {
-		width: 50%;
+		width: 45%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.contact img {
+		width: 45%;
 	}
 
 }
@@ -200,7 +215,7 @@ p {
 	}
 
 	main {
-		padding: 1em 6rem 0em 6rem;
+
 	}
 
 	.info, .info-2 {
@@ -211,10 +226,24 @@ p {
 		max-width: 20em;
 	}
 
+	.about-me {
+		margin-bottom: 18rem;
+		padding: 1em 6rem 0em 6rem;
+	}
+
 	.portfolio {
 		clear: both;
-		margin-left: 6rem;
-		margin-right: ;
+		margin: auto;
+		padding-left: 6rem;
+	}
+
+	.contact {
+		vertical-align: top;
+		padding-right: 6rem;
+	}
+
+	footer {
+		padding: 1em 6rem 1em 6rem;
 	}
 
 }
