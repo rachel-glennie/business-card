@@ -202,6 +202,7 @@ footer {
 
 	.contact img {
 		width: 45%;
+		margin: 0 auto;
 	}
 
 }
@@ -212,10 +213,6 @@ footer {
 	html {
 		font-size: 120%;
 		line-height: 1.5;
-	}
-
-	main {
-
 	}
 
 	.info, .info-2 {
@@ -242,8 +239,51 @@ footer {
 		padding-right: 6rem;
 	}
 
+
 	footer {
 		padding: 1em 6rem 1em 6rem;
 	}
 
 }
+
+@media print {
+
+	.about-me, .contact, .portfolio {
+		display: none;
+	}
+
+	header a {
+		display: none;
+	}
+
+	.name {
+		display: none;
+	}
+
+	body {
+		background-image: none;
+		margin-top: 2em
+	}
+
+	header {
+		margin: 0 auto;
+		padding: 0em;
+	}
+
+	h1 {
+		text-align: right;
+		font-size: 1.5rem;
+		margin: 1em;
+		padding: 0em;
+		float: left;
+		color: black;
+	}
+
+	footer {
+		margin: 0 auto;
+		padding: 1em 0em 0em 0em;
+		float: left;
+	}
+
+}
+
